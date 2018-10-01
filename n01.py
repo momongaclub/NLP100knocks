@@ -5,3 +5,7 @@ for i in range(0, len(string)):
         answer += string[i]
 
 print(answer)
+
+answer = string[::2]
+
+print(answer)
