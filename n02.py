@@ -1,9 +1,8 @@
-string1 = 'パトカー'
-string2 = 'タクシー'
+word1 = 'パトカー'
+word2 = 'タクシー'
 answer = ''
 
-for i in range(0, len(string1)):
-    answer += string1[i]
-    answer += string2[i]
-# zipを使う
+for w1, w2 in zip(word1, word2):
+    answer += w1 + w2
+
 print(answer)
