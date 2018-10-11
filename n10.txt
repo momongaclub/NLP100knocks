@@ -1,0 +1,2 @@
+$ wc hightemp.txt
+ 24  96 813 hightemp.txt
